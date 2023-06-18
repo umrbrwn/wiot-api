@@ -5,7 +5,7 @@ import { VehicleService } from './vehicle.service';
 
 jest.mock('./vehicle.service');
 
-describe.only('VehicleController', () => {
+describe('VehicleController', () => {
   let controller: VehicleController;
   let service: VehicleService;
 
